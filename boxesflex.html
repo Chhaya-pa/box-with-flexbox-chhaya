@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes by Grid</title>
+    <style media="screen">
+
+
+        .container{
+            width: 600px;
+            height: 800px;
+            background-color: aquamarine;
+            border: solid 3px rgb(30, 46, 76);
+            box-shadow: 0 2px 10px gray,0 2px 10px rgb(233, 240, 23);
+            margin-left: 300px;
+            font-size: 30px;
+            font-weight: bold;
+            font-style: italic;
+            align-items: center;
+        }
+        .header{
+            background-color: rgb(84, 124, 125);
+            width: 600px;
+            height: 100px;
+            border: solid 2px rgb(193, 226, 230);
+            box-shadow: 0 2px 5px rgb(226, 157, 178);
+            margin-right: 20px;
+        }
+        .main{
+            background-color: blueviolet;
+            width: 600px;
+            height: 600px;  
+        }
+        .footer{
+            background-color: aquamarine;
+            width: 600px;
+            height: 100px;
+        }
+        .features{
+            background-color: rgb(188, 167, 190);
+            width: 600px;
+            height: 250px;
+        }
+        .articles{
+            background-color: rgb(78, 64, 92);
+            width: 600px;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .art1{
+            background-color: blanchedalmond;
+        }
+        .art2{
+            background-color: rgb(89, 44, 54);
+        }
+        .art3{
+            background-color: rgb(84, 124, 125);
+        }
+        .art{
+            border: double 2px rgb(193, 226, 230);
+            box-shadow: 0 2px 5px rgb(226, 157, 178);
+            border-radius: 0 20px;
+            width: 150px;
+            height: 200px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            logo
+        </div>
+        <div class="main">
+            <div class="features">
+                feature
+
+            </div>
+            <div class="articles">
+                <div class="art art1">Article1</div>
+                <div class="art art2">Article2</div>
+                <div class="art art3">Article3</div>
+            </div>
+        </div>
+        <div class="footer">
+            Footer
+        </div>
+
+    </div>
+    
+</body>
+</html>
